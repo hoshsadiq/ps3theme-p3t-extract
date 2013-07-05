@@ -8,17 +8,17 @@ Usage
 
 Using this is quite simple.
 
- 1. Put the file in your lib folder and include Extractor.php:
+ 1. Put the file in your lib folder and include Autoloader.php:
+ 
+    ```php
+    include 'lib/P3TExtractor/Autoloader.php';
     ```
-    <?php
-    include 'lib/P3T/Extractor.php';
-    ?>
-	```
- 2. Create a `new Extractor()` object:
-    ```
+ 2. Create a `new Extractor()` object: 
+ 
+    ```php
     $p3tfile = 'test.p3t';
     $extract_location = 'extracted/';
-    $p3t = new \P3T\Extractor($p3tfile, $extract_location);
+    $p3t = new \P3TExtractor\Extractor($p3tfile, $extract_location);
     $p3t->parse();
     // P3TExtractor::dump_files()
     // Accepts one argument as to what to extract.
