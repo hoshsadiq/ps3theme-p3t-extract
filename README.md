@@ -1,14 +1,16 @@
 P3T extractor
 ======
 
-This is a PS3 Theme (.p3t) extractor and is currently used on http://ps3theme.net/.
+### NOTE this is not maintained anymore and has not been for 4 years.
+
+This is a PS3 Theme (.p3t) extractor that was used on http://ps3theme.net/.
 
 Usage
 ==
 
 Using this is quite simple.
 
- 1. Put the file in your lib folder and include Autolosader.php:
+ 1. Put the file in your lib folder and include the autoloader:
  
     ```php
     include 'vendor/autoload.php';
